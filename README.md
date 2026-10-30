@@ -1,2 +1,3 @@
 # Model-Surface-Detection
 3D-Breast phantom surface detection via mono-frequency microwave signal.  Sensors expected to be placed as close to the surface as appropriately possible. The phase of signal is used to compute the distance between the sensor and the nearest surface point. Spherical harmonic parameter algorithm is then applied to optimize the surface profile... 
+The 3D coordinates of antenna elements must be provided. The signal can be mono-frequency S11. We recommend use high-frequency signals as they have limited penetration into the model which would confuse the surface detection.
